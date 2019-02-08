@@ -7,7 +7,6 @@
 {% endblock %}
 
 {% block body_block %}
-		<p>Visits: {{ visits }}</p>
 		<h1>Rango says...</h1>
 		<div>
 			here is the about page! <br />
@@ -18,4 +17,5 @@
 			<img src="{% static "images/football.jpg" %}" alt="Picture of a football" /> 
 			<img src="{{ MEDIA_URL}}cat.jpg" />
 		</div> 
+		<p>Visits: {{ visits }}</p>
 {% endblock %}
